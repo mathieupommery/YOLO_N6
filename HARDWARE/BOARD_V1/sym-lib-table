@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32N657I0H3Q")(type "KiCad")(uri "C:/Users/mathi/Documents/GitHub/YOLO_N6/HARDWARE/lib/stm32n6/2026-03-29_20-35-58.kicad_sym")(options "")(descr ""))
+)
