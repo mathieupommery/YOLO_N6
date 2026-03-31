@@ -5131,6 +5131,12 @@
 		(uuid "37c275cd-ed52-4e36-94b2-e90e08ced9fa")
 	)
 	(junction
+		(at 135.89 346.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e1d8eb-cee4-4a17-a135-7e89d608f257")
+	)
+	(junction
 		(at 514.35 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6388,7 +6394,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 346.71) (xy 133.35 346.71)
+			(xy 138.43 346.71) (xy 135.89 346.71)
 		)
 		(stroke
 			(width 0)
@@ -6635,6 +6641,16 @@
 			(type default)
 		)
 		(uuid "9e86b6d2-9af3-4f30-8edd-5fb83ccaebe0")
+	)
+	(wire
+		(pts
+			(xy 135.89 346.71) (xy 133.35 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01ddfe0-1329-423f-8554-1457a41204f5")
 	)
 	(wire
 		(pts
@@ -17916,6 +17932,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 135.89 351.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c83db26-a1ac-4b67-a34b-992c56a08dd6")
+		(property "Reference" "#PWR055"
+			(at 135.89 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "363fa1b1-a2f7-433c-b0f3-dd143325b0c4")
+		)
+		(instances
+			(project "BOARD_V1"
+				(path "/8abaa504-928e-4f3c-993d-d51bf9fbdbc7"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 505.46 77.47 90)
 		(unit 1)
 		(body_style 1)
@@ -20832,6 +20926,88 @@
 			(project "BOARD_V1"
 				(path "/8abaa504-928e-4f3c-993d-d51bf9fbdbc7"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 135.89 349.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de159cfd-d16b-440c-a9c6-5cdb4c508186")
+		(property "Reference" "C71"
+			(at 138.43 347.9862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 138.43 350.5262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca4a5786-35b9-4447-98a2-f34060a65b64")
+		)
+		(pin "2"
+			(uuid "b680700d-3bd8-4cc3-9cd7-983792f88ebe")
+		)
+		(instances
+			(project "BOARD_V1"
+				(path "/8abaa504-928e-4f3c-993d-d51bf9fbdbc7"
+					(reference "C71")
 					(unit 1)
 				)
 			)
