@@ -4671,6 +4671,16 @@
 		)
 		(uuid "4ead302b-1cb4-468b-99a9-f76e022c4e9c")
 	)
+	(label "EX_CMD"
+		(at 334.01 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f6086fc-6894-4dd1-9935-0514e0fd9c54")
+	)
 	(label "CON_A_DP"
 		(at 345.44 134.62 180)
 		(effects
@@ -4680,6 +4690,16 @@
 			(justify right bottom)
 		)
 		(uuid "5d648bf5-a9ca-4d9b-907d-5038d0139b12")
+	)
+	(label "EX_CLK"
+		(at 334.01 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "686c8793-c9bd-4b8c-a9e2-ce812ccb8a4e")
 	)
 	(label "CSI_OUT_D0N"
 		(at 334.01 35.56 180)
@@ -4701,6 +4721,26 @@
 		)
 		(uuid "83809b5e-f6da-47b6-8d3d-e8c8584ecc20")
 	)
+	(label "EX_DAT3"
+		(at 334.01 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e2e7ea9-e74b-4870-b9d6-e5baa7275a58")
+	)
+	(label "EX_DAT0"
+		(at 334.01 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f83d5da-8feb-420e-9614-3fa603f9ba60")
+	)
 	(label "CSI_OUT_D1N"
 		(at 334.01 43.18 180)
 		(effects
@@ -4710,6 +4750,16 @@
 			(justify right bottom)
 		)
 		(uuid "a400d8d1-ad9b-4733-b9db-827d39240077")
+	)
+	(label "EX_DAT2"
+		(at 334.01 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4161da6-f974-494a-9333-3de96ec47344")
 	)
 	(label "CSI_OUT_CKN"
 		(at 334.01 50.8 180)
@@ -4730,6 +4780,16 @@
 			(justify left bottom)
 		)
 		(uuid "a524b904-04dc-409f-aceb-bc4cac1dfd67")
+	)
+	(label "EX_DAT1"
+		(at 334.01 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b17a7002-0b70-4dd2-a328-8e6c245d9e0d")
 	)
 	(label "CSI_OUT_CKP"
 		(at 334.01 53.34 180)
@@ -4809,6 +4869,17 @@
 			)
 		)
 	)
+	(hierarchical_label "SD_CLK"
+		(shape input)
+		(at 269.24 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05451e83-2850-4281-ac5f-33af7a056af5")
+	)
 	(hierarchical_label "SWO"
 		(shape input)
 		(at 77.47 262.89 0)
@@ -4863,6 +4934,17 @@
 			(justify right)
 		)
 		(uuid "2855a504-af25-4b63-9694-31942b569c89")
+	)
+	(hierarchical_label "SD_CMD"
+		(shape input)
+		(at 269.24 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32750e54-c433-45db-8edd-43442f319607")
 	)
 	(hierarchical_label "CAM_IO2"
 		(shape input)
@@ -4952,6 +5034,50 @@
 		)
 		(uuid "761b8f05-e4e0-4f15-91ba-c94734e92c44")
 	)
+	(hierarchical_label "SD_DAT0"
+		(shape input)
+		(at 269.24 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "810e21b4-694d-4e72-aa15-b0ea2b099fea")
+	)
+	(hierarchical_label "SD_DAT2"
+		(shape input)
+		(at 269.24 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cb4ce0d-1f0f-4ac1-aaae-a31654dd0c98")
+	)
+	(hierarchical_label "SD_DAT1"
+		(shape input)
+		(at 269.24 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a263b57-da9e-4935-90e0-25c2ccc55815")
+	)
+	(hierarchical_label "SD_DETECT"
+		(shape input)
+		(at 269.24 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a44d0c6d-18ff-4d53-9e83-4391b97e0d4e")
+	)
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 77.47 257.81 0)
@@ -4973,6 +5099,17 @@
 			(justify right)
 		)
 		(uuid "b479ad0d-8553-403c-8e22-bbdec8490a8c")
+	)
+	(hierarchical_label "SD_DAT3"
+		(shape input)
+		(at 269.24 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7d5aa3a-9e05-4f11-8817-533b30100e80")
 	)
 	(hierarchical_label "CAM_SCL"
 		(shape input)
@@ -5806,6 +5943,84 @@
 			(project "BOARD_V1"
 				(path "/8abaa504-928e-4f3c-993d-d51bf9fbdbc7/ffb1b19b-0ac7-4fc4-87ec-6e39e1378c5b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396a768f-f670-4013-9d0a-5be36779d096")
+		(property "Reference" "#PWR075"
+			(at 289.56 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cc101c7-099d-4e52-b014-4819313bd593")
+		)
+		(instances
+			(project "BOARD_V1"
+				(path "/8abaa504-928e-4f3c-993d-d51bf9fbdbc7/ffb1b19b-0ac7-4fc4-87ec-6e39e1378c5b"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7866,7 +8081,7 @@
 	)
 	(symbol
 		(lib_id "samacsys:47309-2651")
-		(at 363.22 213.36 0)
+		(at 356.87 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7877,7 +8092,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5d3f185-8860-4b88-9721-a5cad448d1e8")
 		(property "Reference" "J3"
-			(at 374.65 205.74 0)
+			(at 368.3 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7887,7 +8102,7 @@
 			)
 		)
 		(property "Value" "47309-2651"
-			(at 374.65 208.28 0)
+			(at 368.3 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7897,7 +8112,7 @@
 			)
 		)
 		(property "Footprint" "473092651"
-			(at 382.27 308.28 0)
+			(at 375.92 284.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7909,7 +8124,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0473092651_MEMORY_CARD_SOCKET.pdf"
-			(at 382.27 408.28 0)
+			(at 375.92 384.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7921,7 +8136,7 @@
 			)
 		)
 		(property "Description" "1 Micro SD Detect switch 2.65mm height"
-			(at 363.22 213.36 0)
+			(at 356.87 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7932,7 +8147,7 @@
 			)
 		)
 		(property "Height" "2.65"
-			(at 382.27 608.28 0)
+			(at 375.92 584.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +8159,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 382.27 708.28 0)
+			(at 375.92 684.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +8171,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "47309-2651"
-			(at 382.27 808.28 0)
+			(at 375.92 784.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +8183,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-47309-2651"
-			(at 382.27 908.28 0)
+			(at 375.92 884.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,7 +8195,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/47309-2651?qs=%252Bi0aAQIdfgCnu2Vhp4wRvw%3D%3D"
-			(at 382.27 1008.28 0)
+			(at 375.92 984.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7992,7 +8207,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 382.27 1108.28 0)
+			(at 375.92 1084.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +8219,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 382.27 1208.28 0)
+			(at 375.92 1184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8220,7 +8435,7 @@
 	)
 	(symbol
 		(lib_id "samacsys2:EMIF06-MSD02N16")
-		(at 269.24 209.55 0)
+		(at 269.24 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8231,7 +8446,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8d5e320-ae24-4fe4-a8ef-b46cc5c4855f")
 		(property "Reference" "FL5"
-			(at 289.56 201.93 0)
+			(at 289.56 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8241,7 +8456,7 @@
 			)
 		)
 		(property "Value" "EMIF06-MSD02N16"
-			(at 289.56 204.47 0)
+			(at 289.56 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8251,7 +8466,7 @@
 			)
 		)
 		(property "Footprint" "EMIF06MSD02N16"
-			(at 306.07 304.47 0)
+			(at 306.07 281.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +8478,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/emif06-msd02n16.pdf"
-			(at 306.07 404.47 0)
+			(at 306.07 381.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8275,7 +8490,7 @@
 			)
 		)
 		(property "Description" "6-Line EMI filter&ESD for SD card uQFN16 STMicroelectronics EMIF06-MSD02N16, EMI Filter & ESD Protector"
-			(at 269.24 209.55 0)
+			(at 269.24 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,7 +8501,7 @@
 			)
 		)
 		(property "Height" "0"
-			(at 306.07 604.47 0)
+			(at 306.07 581.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +8513,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 306.07 704.47 0)
+			(at 306.07 681.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +8525,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EMIF06-MSD02N16"
-			(at 306.07 804.47 0)
+			(at 306.07 781.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +8537,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-EMIF06-MSD02N16"
-			(at 306.07 904.47 0)
+			(at 306.07 881.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8334,7 +8549,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/EMIF06-MSD02N16?qs=1CGoW%2F3pMwpSqVuN8kmN4Q%3D%3D"
-			(at 306.07 1004.47 0)
+			(at 306.07 981.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8561,7 @@
 			)
 		)
 		(property "Arrow Part Number" "EMIF06-MSD02N16"
-			(at 306.07 1104.47 0)
+			(at 306.07 1081.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,7 +8573,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/emif06-msd02n16/stmicroelectronics?region=nac"
-			(at 306.07 1204.47 0)
+			(at 306.07 1181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
