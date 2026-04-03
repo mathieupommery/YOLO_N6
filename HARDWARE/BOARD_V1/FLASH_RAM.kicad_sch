@@ -3097,7 +3097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 99.06 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3179,7 +3179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 115.57 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3258,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA24C100P5X5_800X600X120"
+		(property "Footprint" "samacsys2:BGA24C100P5X5_800X600X120"
 			(at 156.21 214.3 0)
 			(hide yes)
 			(show_name no)
@@ -3490,7 +3490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA24C100P5X5_600X800X120"
+		(property "Footprint" "samacsys2:BGA24C100P5X5_600X800X120"
 			(at 156.21 150.8 0)
 			(hide yes)
 			(show_name no)
@@ -4048,7 +4048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NSR05F30NXT5G"
+		(property "Footprint" "samacsys2:NSR05F30NXT5G"
 			(at -4.75 52.07 0)
 			(hide yes)
 			(show_name no)

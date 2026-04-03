@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "samacsys2:SOT95P280X145-5N"
 			(at 77.47 155.88 0)
 			(hide yes)
 			(show_name no)
@@ -4518,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "samacsys2:SOT95P280X145-5N"
 			(at 77.47 186.36 0)
 			(hide yes)
 			(show_name no)
@@ -5174,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "samacsys2:SOT95P280X145-5N"
 			(at 78.74 126.67 0)
 			(hide yes)
 			(show_name no)
@@ -5512,7 +5512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5594,7 +5594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.95 127 0)
 			(hide yes)
 			(show_name no)
@@ -5674,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 158.75 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -6078,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP3441LSHE7B"
+		(property "Footprint" "samacsys2:AP3441LSHE7B"
 			(at 191.77 160.96 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP3441LSHE7B"
+		(property "Footprint" "samacsys2:AP3441LSHE7B"
 			(at 191.77 206.68 0)
 			(hide yes)
 			(show_name no)
@@ -6777,7 +6777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.95 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7503,7 +7503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 234.95 71.12 0)
 			(hide yes)
 			(show_name no)
