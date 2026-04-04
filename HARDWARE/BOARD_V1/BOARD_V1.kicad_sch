@@ -6024,6 +6024,10 @@
 		(uuid "7b0b3043-61eb-40b0-b155-495a8157caa3")
 	)
 	(no_connect
+		(at 71.12 78.74)
+		(uuid "c15db054-af71-42ef-9f41-5787f68f1fcd")
+	)
+	(no_connect
 		(at 62.23 341.63)
 		(uuid "dc2f6c62-599a-458b-bf2d-fa5cfa0e3d66")
 	)
@@ -6670,16 +6674,6 @@
 			(type default)
 		)
 		(uuid "4ac86fa1-45d4-4475-844e-a1a64ed690fa")
-	)
-	(wire
-		(pts
-			(xy 233.68 55.88) (xy 236.22 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4af9f75c-563a-45d2-b51e-2dd15ab3c7c2")
 	)
 	(wire
 		(pts
@@ -7450,16 +7444,6 @@
 			(type default)
 		)
 		(uuid "a61b6ddf-a6dc-4e88-a0d4-2664ec373364")
-	)
-	(wire
-		(pts
-			(xy 67.31 78.74) (xy 71.12 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6dcdde0-f897-49d3-8166-42d7577bb7cb")
 	)
 	(wire
 		(pts
@@ -13881,16 +13865,6 @@
 		)
 		(uuid "229b8af5-5928-4ed1-87ac-3acf765ba72f")
 	)
-	(label "JTDI"
-		(at 67.31 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ad3042f-a717-44fe-b170-e0028e6d4fc4")
-	)
 	(label "USB_DP1"
 		(at 137.16 308.61 0)
 		(effects
@@ -14660,16 +14634,6 @@
 			(justify left bottom)
 		)
 		(uuid "e7664b61-6ef4-4633-a392-46bfe5447d87")
-	)
-	(label "OCTOSPI_ECS"
-		(at 233.68 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e806f093-2f9d-406a-895f-5866619a3559")
 	)
 	(label "SWCLK"
 		(at 67.31 76.2 180)
@@ -23957,16 +23921,6 @@
 		(pin "OCTOSPI_DQS" input
 			(at 236.22 52.07 180)
 			(uuid "98382b9e-bfec-4d1c-a4c5-5a1fb5e5dac5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OCTOSPI_ECS" input
-			(at 236.22 55.88 180)
-			(uuid "82232c82-e489-4bdd-be14-bb619eb24dba")
 			(effects
 				(font
 					(size 1.27 1.27)
