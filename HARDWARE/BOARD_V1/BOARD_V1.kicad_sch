@@ -13865,7 +13865,7 @@
 		)
 		(uuid "229b8af5-5928-4ed1-87ac-3acf765ba72f")
 	)
-	(label "USB_DP1"
+	(label "USB1_DP"
 		(at 137.16 308.61 0)
 		(effects
 			(font
@@ -14085,7 +14085,7 @@
 		)
 		(uuid "59383d0c-60b8-4dcc-bcd7-2ba926bf5a9a")
 	)
-	(label "USB_DM1"
+	(label "USB1_DN"
 		(at 309.88 290.83 180)
 		(effects
 			(font
@@ -14125,7 +14125,7 @@
 		)
 		(uuid "63a7f3b1-9bf9-4185-b0cb-26a7b2ddd4aa")
 	)
-	(label "USB_DP1"
+	(label "USB1_DP"
 		(at 309.88 287.02 180)
 		(effects
 			(font
@@ -14505,7 +14505,7 @@
 		)
 		(uuid "c45afa1c-bf3d-47dc-bea5-1a4b34fd3f8d")
 	)
-	(label "USB_DM1"
+	(label "USB1_DN"
 		(at 137.16 316.23 0)
 		(effects
 			(font
