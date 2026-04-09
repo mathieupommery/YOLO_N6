@@ -1918,7 +1918,7 @@
 	)
 	(rectangle
 		(start 219.71 63.5)
-		(end 274.32 115.57)
+		(end 280.67 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -1983,6 +1983,16 @@
 			)
 		)
 		(uuid "b71bb45e-daa1-4bdc-8be2-8b2f5c9dd276")
+	)
+	(text "LDO_1V8 is one of the reference plane \nfor data line between ram and flash"
+		(exclude_from_sim no)
+		(at 249.428 101.092 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "ea40e9b7-6ea8-4467-8fca-9d4d9fc75fa7")
 	)
 	(junction
 		(at 63.5 59.69)
@@ -2570,7 +2580,7 @@
 		)
 		(uuid "c06c1b55-2cfe-4340-9da2-6cb9ce24cc61")
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 90.17 52.07 90)
 		(fields_autoplaced yes)
@@ -2594,7 +2604,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 165.1 80.01 90)
 		(fields_autoplaced yes)
@@ -2618,7 +2628,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 168.91 143.51 90)
 		(fields_autoplaced yes)
@@ -2642,7 +2652,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 73.66 46.99 90)
 		(fields_autoplaced yes)
@@ -2666,7 +2676,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 78.74 138.43 90)
 		(fields_autoplaced yes)
@@ -2690,7 +2700,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 181.61 59.69 90)
 		(fields_autoplaced yes)
@@ -2714,7 +2724,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 245.11 80.01 90)
 		(fields_autoplaced yes)
@@ -2738,7 +2748,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 101.6 135.89 180)
 		(fields_autoplaced yes)
@@ -2762,7 +2772,7 @@
 			)
 		)
 	)
-	(global_label "VDDA1V8"
+	(global_label "LDO_1V8"
 		(shape input)
 		(at 134.62 123.19 0)
 		(fields_autoplaced yes)

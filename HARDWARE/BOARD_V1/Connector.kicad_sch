@@ -16593,16 +16593,6 @@
 		)
 		(uuid "5edc6a7a-a8cc-4cbe-9337-ee0b2b5e2c8c")
 	)
-	(label "CON_B_DP"
-		(at 34.29 62.23 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6778c607-3b87-4f6f-82b4-d4053772534d")
-	)
 	(label "EX_CLK"
 		(at 252.73 203.2 0)
 		(effects
@@ -16662,16 +16652,6 @@
 			(justify left bottom)
 		)
 		(uuid "89aa21fd-16dc-4f02-8e31-52f3e6e8f4ae")
-	)
-	(label "CON_B_DN"
-		(at 34.29 59.69 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e90f3e1-e03f-48c6-8116-2fbdb604f194")
 	)
 	(label "EX_DAT2"
 		(at 290.83 181.61 180)
