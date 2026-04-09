@@ -15691,7 +15691,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "FBMJ1608HM180NTR"
 			(at 444.4619 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
