@@ -48,6 +48,4 @@ This project is a stepping stone towards developing more complex hardware. Follo
 
 ---
 
-**License:** [Ex. MIT]
-
-**Contact:** [Votre Nom/Pseudo]
+**Contact:** [Pommery Mathieu]
