@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.15,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.15,
@@ -232,7 +232,7 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "bom_rev": "",
@@ -930,7 +930,7 @@
         "uuid": "8abaa504-928e-4f3c-993d-d51bf9fbdbc7"
       }
     ],
-    "used_designators": "J6-7,FL10,H5-9,TP6,#PWR73,#PWR98-102,D3,C77",
+    "used_designators": "S1,C79-82,#PWR110-112,R27-28",
     "variants": []
   },
   "sheets": [
