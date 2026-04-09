@@ -10,9 +10,7 @@ The primary objective is to execute YOLO-based object detection models efficient
 
 | Front View | Back View |
 | :--- | :--- |
-|
-<img width="974" height="960" alt="front" src="https://github.com/user-attachments/assets/1ac7adb3-c14d-43e5-8af7-f17697e030fa" />|
-<img width="827" height="808" alt="back" src="https://github.com/user-attachments/assets/0ca34a6f-0ca9-4971-8fd8-8ddb638d9c8b" />|
+|<img width="974" height="960" alt="front" src="https://github.com/user-attachments/assets/1ac7adb3-c14d-43e5-8af7-f17697e030fa" />|<img width="827" height="808" alt="back" src="https://github.com/user-attachments/assets/0ca34a6f-0ca9-4971-8fd8-8ddb638d9c8b" />|
 
 ### Core Components
 
