@@ -1,0 +1,368 @@
+(footprint "473092651"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "47309-2651")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b1c326bc-8ec1-41d0-808b-842cae07bada")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "47309-2651"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "14e81247-cde8-4113-88ad-8512c0a50771")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0473092651_MEMORY_CARD_SOCKET.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78978eb7-7edc-4b9d-bb34-c0a898e54369")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1 Micro SD Detect switch 2.65mm height"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd6b0b52-f02b-45bb-a7fc-ec653663f194")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "2.65"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b530fe-f4c7-4e5d-a215-3440faf2b066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b958021-44d9-41e9-b7d9-3068a3b5a216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "47309-2651"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4732931d-b34b-4253-85e8-132ef9c35b7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "538-47309-2651"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c5c7b64-6e28-44e9-a3ce-6b29b4d2836e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/47309-2651?qs=%252Bi0aAQIdfgCnu2Vhp4wRvw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "841b5ae2-af03-4876-95ee-689394b4dd85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51a21b6a-2033-450a-9746-a5e698f96c4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b01146f-de27-4748-bbee-e635b93d4958")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Connector/")
+	(sheetfile "Connector.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.95 -2.658)
+		(end -5.95 -1.059)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a780b9c3-1cf7-4705-abf9-9900f090a697")
+	)
+	(fp_line
+		(start -5.95 -2.658)
+		(end 5.45 -2.658)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e829039-09fd-49c0-95f7-e5379970cb3f")
+	)
+	(fp_line
+		(start -4.35 2.842)
+		(end 3.728 2.842)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f242a3d-5a65-4414-be68-b16355d15042")
+	)
+	(fp_line
+		(start 4.325 -3.4)
+		(end 4.325 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88e7d37e-4e60-4bb2-8cca-2879bf45fd4b")
+	)
+	(fp_line
+		(start 4.525 -3.4)
+		(end 4.525 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cb642a9-8d9d-43e4-bcc6-26f6d3ccc040")
+	)
+	(fp_line
+		(start 5.45 -2.658)
+		(end 5.45 -0.56)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "578d55cb-9442-4a87-bfff-3b90a0ca026b")
+	)
+	(fp_arc
+		(start 4.325 -3.4)
+		(mid 4.425 -3.5)
+		(end 4.525 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49c855f3-d5a4-4b51-ad68-8d1ce6064035")
+	)
+	(fp_arc
+		(start 4.525 -3.4)
+		(mid 4.425 -3.3)
+		(end 4.325 -3.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47dd58e2-e0f4-45ad-8919-cf77a1000cbd")
+	)
+	(fp_rect
+		(start -6.125 -2.825)
+		(end 6.025 3.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3312f4ec-451e-4422-8bdc-0bb57a4fab4c")
+	)
+	(fp_line
+		(start -5.95 -2.658)
+		(end 5.45 -2.658)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b40ac58-674c-4693-8eee-ca31fe8d6bb8")
+	)
+	(fp_line
+		(start -5.95 2.842)
+		(end -5.95 -2.658)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f700c55b-7e27-4969-934a-c92e18cb7625")
+	)
+	(fp_line
+		(start 5.45 -2.658)
+		(end 5.45 2.842)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8f5d53a-2c11-4a0d-9801-8d9bf8961775")
+	)
+	(fp_line
+		(start 5.45 2.842)
+		(end -5.95 2.842)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02e22a65-1930-4660-b6bb-dcf2dc0c2220")
+	)
+	(pad "1" smd rect
+		(at 3.6 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f6b71280-d757-437c-b780-de9ca8a3da91")
+	)
+	(pad "2" smd rect
+		(at 2.5 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d6525d9a-2b0d-4127-beec-9be488a09055")
+	)
+	(pad "3" smd rect
+		(at 1.4 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1751acc2-fd86-4c8b-a8d3-6b5a8b157248")
+	)
+	(pad "4" smd rect
+		(at 0.3 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ff23cd8-1fe5-453d-9e55-5af5ee69d540")
+	)
+	(pad "5" smd rect
+		(at -0.8 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0804a2ed-4e37-4ecf-a46c-a9a5d3f98e4f")
+	)
+	(pad "6" smd rect
+		(at -1.9 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b9ac61b-f4aa-4d12-aba2-92f777fb80ca")
+	)
+	(pad "7" smd rect
+		(at -3 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93e36770-d800-45ea-a86c-a3cdd8f83f41")
+	)
+	(pad "8" smd rect
+		(at -4.1 -1.333)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c961e63-9732-496a-88d4-f68577b3fb37")
+	)
+	(pad "9" smd rect
+		(at -5.25 1.147)
+		(size 1.2 3.79)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e447044-17f5-4eb9-aedc-ca5bb15557e7")
+	)
+	(pad "10" smd rect
+		(at 5.225 0.392 90)
+		(size 1.4 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2732b4c3-b223-46f5-b473-05e7aefcabca")
+	)
+	(pad "11" smd rect
+		(at 5.45 1.642 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cbf1880b-8dbc-45d3-a5f8-bfa4c7c8fe84")
+	)
+	(pad "12" smd rect
+		(at 4.525 2.617 90)
+		(size 0.85 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f95e4964-d077-4dc9-a4c6-04e843c9510f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/mathi/Desktop/projet/libloader/SamacSys_Parts.3dshapes/47309-2651.stp"
+		(offset
+			(xyz -0.5 -0.5 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

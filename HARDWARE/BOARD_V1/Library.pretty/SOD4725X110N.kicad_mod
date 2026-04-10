@@ -1,0 +1,234 @@
+(footprint "SOD4725X110N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOD128")
+	(tags "Diode")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "42cc6cc5-a933-4889-8699-1b81dbd4afdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PMEG3050EP"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "97fffd9e-f745-4178-8601-e2c7d21070f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://uk.rs-online.com/web/p/products/1038095"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c47497cf-4185-4d76-ab0c-5449ca872e30")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Schottky barrier diode 30V 5A SOD128 NXP PMEG3050EP, SMT Schottky Schottky Barrier Diode, 30V 5A, 2-Pin SOD-128"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4adce29-c4d5-46d0-9cac-7727818f9a5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70b0e695-7c36-4d43-9d0f-fa5de2f5c193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "646dda3c-50c9-416d-af85-2b090b05d2c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PMEG3050EP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9cc8797-abca-4659-8cf6-3cf7cf48fb45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2bff3bd-d345-4ca3-b918-33acc58033d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG3050EP?qs=vHuUswq2%252Bsy8mPgT6IRq2g%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5cfbdcc-6948-4096-b7fc-ca7853c25629")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac79719d-f23f-4f43-9f85-38e16fa619de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38a15fc9-37c5-4a1b-abd1-479b3a8e3474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Connector/")
+	(sheetfile "Connector.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.875 -1.35)
+		(end 2.875 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f98ea213-873f-4457-a62f-eda5e84214d8")
+	)
+	(fp_line
+		(start -1.9 -1.25)
+		(end 1.9 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45079b1f-e614-4417-b4da-bfb5d78fbea9")
+	)
+	(fp_line
+		(start -1.9 -0.5)
+		(end -1.15 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "521cf13c-f838-45ba-ba31-da132481fc2f")
+	)
+	(fp_line
+		(start -1.9 1.25)
+		(end -1.9 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ad32165-89ce-4a56-b076-cf878b279c9f")
+	)
+	(fp_line
+		(start 1.9 -1.25)
+		(end 1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2780c805-b79e-4afe-a393-86b7c0fb16e5")
+	)
+	(fp_line
+		(start 1.9 1.25)
+		(end -1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4868484f-a493-420f-a5ad-29de448b44d4")
+	)
+	(pad "1" smd rect
+		(at -2.1 0 90)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce94b4aa-f5ea-4c32-a1b3-f997c47119c0")
+	)
+	(pad "2" smd rect
+		(at 2.1 0 90)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "280ef10b-d1bd-4b5d-899b-7814e36fca55")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\PMEG3050EP.stp"
+		(offset
+			(xyz -1.720000003 6.909999744 -4.709999967)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

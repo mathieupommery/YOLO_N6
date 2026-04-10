@@ -1,0 +1,438 @@
+(footprint "BGA24C100P5X5_600X800X120"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "BGA 24b , package code BG")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4b8f437b-d06d-4e89-b93b-368484d6a593")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "APS51208N-OBR-BD"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "edfb8cbe-e41e-408f-bdc1-0d9ae849cca5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.apmemory.com/en/downloadFiles/03241122216r609846"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc60e746-cb20-4b99-94e1-2c26c95ee95c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Software reset  Reset pin available  Output driver LVCMOS with programmable drive strength"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c02b986b-9c86-4ad3-bfd8-de774d2155ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cb07a1f-3e9d-41e2-86e3-0053eacc4919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "apmemory"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d8a142e-949e-4ecb-9111-58d25b0e9094")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "APS51208N-OBR-BD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a754cd3a-5f35-460f-83df-5be996fb49d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eb7b445-3fc2-471d-8f77-3d00df9f7831")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "586b7e53-fd03-4b3e-b400-9c04a5798aac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c528a21f-9264-4ca5-8217-7e98effd1ce2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5d3202e-d911-41b1-bede-c85f94b7ebdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/FLASH_RAM/")
+	(sheetfile "FLASH_RAM.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3 -2)
+		(end -1 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34584792-5042-42e3-ae86-62111731ca4f")
+	)
+	(fp_line
+		(start -3 4)
+		(end -3 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e491859d-c39d-46ea-b877-62f6448ccca5")
+	)
+	(fp_line
+		(start -1 -4)
+		(end 3 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a94c3e0f-7586-4c1e-b317-157e93c4607f")
+	)
+	(fp_line
+		(start 3 -4)
+		(end 3 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a246706-3820-4ebe-84c9-1357ff44fd63")
+	)
+	(fp_line
+		(start 3 4)
+		(end -3 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d50ee4e-022b-44f9-b19f-da51fe51b58c")
+	)
+	(fp_circle
+		(center -3 -4)
+		(end -3 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb691262-ed31-484b-be56-0c81e138b596")
+	)
+	(fp_rect
+		(start -3.25 -4.25)
+		(end 3.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c7f991a0-ec7a-463c-ad70-93fee1489388")
+	)
+	(fp_line
+		(start -3 -4)
+		(end 3 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fea3413b-8d7f-4724-9ca1-635fc8e8a71e")
+	)
+	(fp_line
+		(start -3 -1.975)
+		(end -0.975 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d09ecde2-2af5-40eb-8cbf-a6662e1ac4de")
+	)
+	(fp_line
+		(start -3 4)
+		(end -3 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e473f031-b9c3-4838-96fe-ceead3e2e74e")
+	)
+	(fp_line
+		(start 3 -4)
+		(end 3 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1f668bc-6d97-4754-a45d-4d3f7d51fe36")
+	)
+	(fp_line
+		(start 3 4)
+		(end -3 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fea67a2c-ae8c-4ac2-9fd0-0022fe88c14e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "d8f58d1e-0b85-4cc8-a2ab-198f1fbf06ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A2" smd circle
+		(at -1 -2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31b2f4aa-52be-4063-925d-e6d9fa0cb899")
+	)
+	(pad "A3" smd circle
+		(at 0 -2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "691a1018-bea8-420b-b4c9-17d8535cce01")
+	)
+	(pad "A4" smd circle
+		(at 1 -2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63f4865a-ae64-4378-bd2b-c4c06f6ee6ef")
+	)
+	(pad "A5" smd circle
+		(at 2 -2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f479928f-35e3-43ef-935f-c090df5d2f91")
+	)
+	(pad "B1" smd circle
+		(at -2 -1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7921b58-ea9c-4dac-8fe4-6958b7fbe1ab")
+	)
+	(pad "B2" smd circle
+		(at -1 -1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1633ed9-0574-4cda-b645-3fd611bad2f2")
+	)
+	(pad "B3" smd circle
+		(at 0 -1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0057dd0-734f-46b5-a643-c39bdf451a7f")
+	)
+	(pad "B4" smd circle
+		(at 1 -1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f9cc1d6-571b-46a0-acfb-763702a7fd47")
+	)
+	(pad "B5" smd circle
+		(at 2 -1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf969c41-8dcb-42da-8d3a-eaf04f439794")
+	)
+	(pad "C1" smd circle
+		(at -2 0 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80ec9066-412f-4a89-83d8-2c19d95ecf28")
+	)
+	(pad "C2" smd circle
+		(at -1 0 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29ae0c50-9aa4-49ec-8523-3b990e76b150")
+	)
+	(pad "C3" smd circle
+		(at 0 0 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4f8f680-e372-42c2-ba4b-46a2fa5d1655")
+	)
+	(pad "C4" smd circle
+		(at 1 0 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e699d1b-4627-4333-b7d2-e709d662848d")
+	)
+	(pad "C5" smd circle
+		(at 2 0 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a7faa70-22b2-444d-b4cf-2cd08d340285")
+	)
+	(pad "D1" smd circle
+		(at -2 1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1501e0e8-494b-4883-98fa-e71a45c7519d")
+	)
+	(pad "D2" smd circle
+		(at -1 1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ddac3a65-a6a8-4c59-a70f-cc5f33331d86")
+	)
+	(pad "D3" smd circle
+		(at 0 1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92a3633e-ffc4-4655-bdc6-e93c40a655ca")
+	)
+	(pad "D4" smd circle
+		(at 1 1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f426c543-060d-45dc-9a1e-c357c058e0eb")
+	)
+	(pad "D5" smd circle
+		(at 2 1 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aaa14763-42c8-40ad-847d-63759a2e2c78")
+	)
+	(pad "E1" smd circle
+		(at -2 2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "73eab055-8f5d-452f-bb44-61d8897e06c5")
+	)
+	(pad "E2" smd circle
+		(at -1 2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "157ac3bb-68fa-4792-96be-4865da23a42a")
+	)
+	(pad "E3" smd circle
+		(at 0 2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f4c185c-d8ee-4a67-b500-07221532be26")
+	)
+	(pad "E4" smd circle
+		(at 1 2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e542f27f-be14-4d76-9a0c-f3af14a5522a")
+	)
+	(pad "E5" smd circle
+		(at 2 2 90)
+		(size 0.37 0.37)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1bfc4ff0-6de5-4950-abdb-f84a97f9b68b")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\APS51208N-OBR-BD.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

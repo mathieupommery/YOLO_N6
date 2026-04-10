@@ -1,0 +1,319 @@
+(footprint "AP3441LSHE7B"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "U-DFN2020-8")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cff9bf79-532f-4c6b-b48c-9a6fc81d70cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AP3441LSHE-7B"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6cc437a-5cf2-4bc2-92f5-24214dd85ff3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP3441-L.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d508901-4229-4ba8-8492-38a376ee9fa2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Switching Voltage Regulators DCDC Conv LV Buck"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a78cccf4-bff3-453f-b601-27e2e4fef8ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2cae8b6-d053-4548-b9ad-74f92a6bef91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diodes Incorporated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4586c1d-b9ad-4b09-9b4b-646764238a49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "AP3441LSHE-7B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2eb97ce-9111-4241-89df-3e5b6f78cb0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "621-AP3441LSHE-7B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a78bf963-4bf1-4e29-ba79-300dc05e12e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP3441LSHE-7B?qs=wUXugUrL1qypzVa4NB91Hg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c0f1a91-9110-4c6b-8a01-c35b2599b399")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "AP3441LSHE-7B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b14de5-9467-4589-acc2-bcd77a8eb476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ap3441lshe-7b/diodes-incorporated?utm_currency=USD&region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "567e6dd5-7193-40ef-865f-4876d5cc74ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/PWR_SUPPLY/")
+	(sheetfile "PWR_SUPPLY.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.225 0.875)
+		(end -1.225 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2cf7f03b-76a4-4e36-95d3-503fb9ec3b0f")
+	)
+	(fp_line
+		(start -1.225 0.975)
+		(end -1.225 0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0502c4fa-6c8a-44ce-8061-b137f3e63b04")
+	)
+	(fp_arc
+		(start -1.225 0.875)
+		(mid -1.175 0.925)
+		(end -1.225 0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99460cfa-8c35-4878-804b-881e5f5105c2")
+	)
+	(fp_arc
+		(start -1.225 0.975)
+		(mid -1.275 0.925)
+		(end -1.225 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49c4c5d6-00af-4166-962b-acec09fe2a88")
+	)
+	(fp_rect
+		(start -1.125 -1.3)
+		(end 1.125 1.275)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ef985eac-52e3-479a-9f11-eb8e8061ded4")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ce6ed03-5e3e-4163-975f-9701c2f5d348")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aacdb86f-98d3-4fcb-8625-4c226f886e55")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97481832-6a57-4344-bae4-1ee149f009c5")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f756860c-7ac4-48fb-bac4-a664459b9f18")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "d06034b9-881c-4d3e-88d3-d56d4dc336eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "400db428-0641-4e29-a934-4b4c8ae26600")
+	)
+	(pad "2" smd rect
+		(at -0.25 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cee24882-a75f-4d6e-8e33-aedc34ac6e73")
+	)
+	(pad "3" smd rect
+		(at 0.25 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79967549-c50b-4f84-888a-a76caa4e53dd")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "be62751b-fcc3-412c-9342-7e59862902f9")
+	)
+	(pad "5" smd rect
+		(at 0.75 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a498f868-167d-4d19-be1c-073beb225294")
+	)
+	(pad "6" smd rect
+		(at 0.25 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8630059-1c5a-4ed3-8d8d-fa29822a06e7")
+	)
+	(pad "7" smd rect
+		(at -0.25 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77faf4cc-6797-4c17-95ca-6c156d61b413")
+	)
+	(pad "8" smd rect
+		(at -0.75 -0.9)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d12c7142-a671-445d-a963-1a09d9b917fd")
+	)
+	(pad "9" smd rect
+		(at 0 0 90)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23927227-fcc2-4382-b1c9-83a6f525aef4")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\AP3441LSHE-7B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
