@@ -18872,7 +18872,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "N/A"
+		(property "Mouser Part Number" "771-PMEG3050EP115"
 			(at 80.01 729.21 0)
 			(hide yes)
 			(show_name no)
@@ -19642,6 +19642,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 142.24 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "640-USB4110-GF-A"
 			(at 142.24 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20913,7 +20924,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "N/A"
+		(property "Mouser Part Number" "771-PMEG3050EP115"
 			(at 115.57 -552.68 0)
 			(hide yes)
 			(show_name no)
@@ -23060,7 +23071,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "N/A"
+		(property "Mouser Part Number" "306-SM04BGHSTBLFSN"
 			(at 96.52 833.35 0)
 			(hide yes)
 			(show_name no)

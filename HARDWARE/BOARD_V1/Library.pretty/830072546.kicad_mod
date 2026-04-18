@@ -1,0 +1,289 @@
+(footprint "830072546"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2.0x1.6x0.50mm")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0851fd55-c6d2-43f1-b765-e4c482626ec7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "830072546"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dca04b9a-8774-440c-9fb0-a1b26e9dda7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/catalog/datasheet/830072546.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "186010da-3d90-4f1a-94e5-1bc76103665f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "WE-XTAL Quartz Crystal IQXC-42; 2.0 x 1.6mm; 48.0 MHz; Tol = +/-15 ppm; Stab = +/-20 ppm Temp Range: -40 to 85 C; Load Cap = 10 pF;"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e548d9b-e696-43e8-9f2b-1c08f54a6b60")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "067757b4-723e-4064-b7d9-ad3156af4785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Wurth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4989e56-6b8c-4bff-8913-f5e9878814f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "830072546"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "412b7f71-0ca3-49a2-bbb3-51733f0cb902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "710-830072546"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96b5eb09-4473-4b94-aac3-bf9bae3bc793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830072546?qs=2WXlatMagcEbnFECwIcCsQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a0154bc-653c-4a9a-a0ba-4a950aee5a90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9048af3c-6157-42a4-9857-f56678cc7beb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90d52cc4-0e12-4563-971e-1b315797d526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "BOARD_V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.820982 1.226469)
+		(end -0.820982 1.226469)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5aea2190-45ac-4995-8bfe-69fe9175fe0f")
+	)
+	(fp_line
+		(start -0.720982 1.226469)
+		(end -0.720982 1.226469)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f1c9c2-ad9d-4046-97fc-3dbf6a045d30")
+	)
+	(fp_arc
+		(start -0.820982 1.226469)
+		(mid -0.770982 1.176469)
+		(end -0.720982 1.226469)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11339e96-2e1f-445d-8f57-00fe9abc9354")
+	)
+	(fp_arc
+		(start -0.720982 1.226469)
+		(mid -0.770982 1.276469)
+		(end -0.820982 1.226469)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6517d3a-810c-40a9-ab5b-317d1260044e")
+	)
+	(fp_rect
+		(start -1.225 -1)
+		(end 1.2 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "97a3c255-bfb6-4748-8cef-210d1101fee0")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe750e48-bea4-4e45-97f4-b3a21aa2e757")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90aa7a69-1d41-4f5c-85da-fed24b829be8")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76c27ced-9cf4-4554-a664-1187b30c7275")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af475a59-17c3-4cce-b1ee-198ae88cbd3b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "946a2691-e3d3-417e-884b-7db6a7b5363c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.637 0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4c2e1c6-620b-423e-a9ed-0e0236b5b9d7")
+	)
+	(pad "2" smd rect
+		(at 0.637 0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "617ed111-6ce8-4c09-a34f-9d428462630f")
+	)
+	(pad "3" smd rect
+		(at 0.637 -0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50f26e01-d590-41d6-aa66-f55dee8939f8")
+	)
+	(pad "4" smd rect
+		(at -0.637 -0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d8c7bb1-927e-45e4-ab08-65fec598a53e")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\830072546.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

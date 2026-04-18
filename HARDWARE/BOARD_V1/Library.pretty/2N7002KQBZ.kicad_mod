@@ -1,0 +1,212 @@
+(footprint "2N7002KQBZ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2N7002KQBZ")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a474f2dc-d275-4b3b-babe-e51b31ccf276")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BSS84AKQBZ"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e0fffd2d-fbbb-4e3d-b44c-43df522d290c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002KQB.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17abc755-d0fe-44a8-9280-65f7d6000a57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-Channel 60 V 720mA (Ta) 420mW (Ta), 4.2W (Tc) Surface Mount, Wettable Flank DFN1110D-3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f99830a-1961-41b3-8883-99c304e78876")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f3bca4a-0ef1-4632-9201-078e125794d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-2N7002KQBZ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4f7a90f-65d4-4d02-ab9c-67a676486b4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/2N7002KQBZ?qs=A6eO%252BMLsxmQEVgBEiM5VjQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cf04dd7-861e-46f8-bb7e-a1b108b77126")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b8c056c-4396-4227-98a0-74cb24287a86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "2N7002KQBZ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f341790-f290-4960-9fd7-aad3370d1624")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Connector/")
+	(sheetfile "Connector.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.7 -0.84)
+		(end 0.68 0.91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "31fde165-adeb-4470-a071-76a06047916d")
+	)
+	(fp_line
+		(start -0.55 -0.5)
+		(end -0.55 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f6bf6cc-9b80-4b3c-a95d-8271ec5dc19a")
+	)
+	(fp_line
+		(start -0.55 0.5)
+		(end 0.55 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1c0496c-1741-42b7-8ebd-ec9ff5b57339")
+	)
+	(fp_line
+		(start 0.55 -0.5)
+		(end -0.55 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ecb8ca7-8c47-44a0-9d03-7478a99c6895")
+	)
+	(fp_line
+		(start 0.55 0.5)
+		(end 0.55 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af3ea9eb-4fed-4649-89e8-4a407f51a883")
+	)
+	(pad "1" smd rect
+		(at -0.325 0.5)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1fec82da-b724-4de4-b386-35c19c67d360")
+	)
+	(pad "2" smd rect
+		(at 0.325 0.5)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a94a826f-8b33-4c01-b8a4-aebcfc1e9482")
+	)
+	(pad "3" smd rect
+		(at 0 -0.19 90)
+		(size 0.44 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5d48fef-de45-4c20-8e66-7c7c14ef1c44")
+	)
+	(pad "4" smd rect
+		(at 0 -0.58)
+		(size 0.3 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "472a4a4c-f017-439c-9b2a-d7babc471447")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/mathi/Desktop/projet/libloader/SamacSys_Parts.3dshapes/BSS84AKQBZ.stp"
+		(offset
+			(xyz -0.45 -0.85 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

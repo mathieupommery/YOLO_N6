@@ -1,0 +1,453 @@
+(footprint "DF526S08H21"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DF52-6S-0.8H(21)-1")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 -0.075 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2d08277f-5e88-403a-bcc3-2b5a0630522e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DF52-6S-0.8H_21_"
+		(at 0 -0.075 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2dc559c7-5321-4b5e-9ecf-334b98e9cdd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0668-0006-0-21&productname=DF52-6S-0.8H(21)&series=DF52&documenttype=2DDrawing&lang=en&documentid=0001002340"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e786032-2f29-43dd-ae8c-901e3a5749b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "6 Position Socket Connector 0.031\" (0.80mm) Surface Mount, Right Angle Tin"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d06647e-9487-49c3-bf58-7be2bf1c102c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.95"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4b4780e-db5d-46fd-b494-4f00df29aa9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Hirose"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45f92c6-4697-49c0-a2c4-44f6a7e85b63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DF52-6S-0.8H(21)"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58a5425a-89b8-4d2d-9ae3-29ad1fee459d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "798-DF52-6S-0.8H21"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6346585-3d0a-4991-9bfd-2fa523779c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF52-6S-0.8H21?qs=%2FKR40Cd6GUr23EW4%2Fhdjiw%3D%3D"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7c71576-f9ac-4603-af9f-48428b1d6f5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb492979-1956-42a0-a4b4-65d9d2e8fe2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30d2e1bb-5fe7-4291-8987-3de148f42d0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Connector/")
+	(sheetfile "Connector.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 3.5 -0.435)
+		(end 3.5 -1.135)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b201a652-dbdd-4bb5-8495-729cdaea7454")
+	)
+	(fp_line
+		(start 3.5 -1.135)
+		(end 3 -1.135)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a3e91fb-7e68-4e8c-91f0-c93fdcd7263e")
+	)
+	(fp_line
+		(start 3 -1.135)
+		(end 3 -1.385)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bda9878f-1734-4b92-b37e-f479d7e6e7fc")
+	)
+	(fp_line
+		(start 3 -1.385)
+		(end 2.6 -1.385)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9ee545b-1554-4e63-9aa9-29fb593182fd")
+	)
+	(fp_line
+		(start -2 -2.1)
+		(end -2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44e7b1db-8b9d-4f05-bb19-0121ab21d581")
+	)
+	(fp_line
+		(start -2 -2.2)
+		(end -2 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9af61e23-03de-45d5-abb9-e32825fcc482")
+	)
+	(fp_line
+		(start -2.4 1.385)
+		(end 2.4 1.385)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49b99f8e-b8ed-4835-bd96-002d5fa753a3")
+	)
+	(fp_line
+		(start -2.6 -1.385)
+		(end -3 -1.385)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d986f9f2-837a-4cec-b01a-297fa5a72882")
+	)
+	(fp_line
+		(start -3 -1.135)
+		(end -3.5 -1.135)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3d78998-eaf7-42c8-b8c9-31a2a3a3cc22")
+	)
+	(fp_line
+		(start -3 -1.385)
+		(end -3 -1.135)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aff6a90c-b8d1-4039-889e-5ff8f1bc810d")
+	)
+	(fp_line
+		(start -3.5 -1.135)
+		(end -3.5 -0.435)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3636efe3-0d6c-4dac-a787-7f21a3ef9c5b")
+	)
+	(fp_arc
+		(start -2 -2.1)
+		(mid -2.05 -2.15)
+		(end -2 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7921300c-d0df-4527-92c4-5c147dd92c17")
+	)
+	(fp_arc
+		(start -2 -2.2)
+		(mid -1.95 -2.15)
+		(end -2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9514550-129c-49da-b21d-37cffb329c38")
+	)
+	(fp_rect
+		(start -3.775 -1.75)
+		(end 3.8 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "023a620a-f015-48a0-a8bf-905e4bb3f36e")
+	)
+	(fp_line
+		(start 3.5 1.385)
+		(end -3.5 1.385)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "baf2d262-7c50-4cf5-bbd4-4f49b36c1748")
+	)
+	(fp_line
+		(start 3.5 -1.135)
+		(end 3.5 1.385)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca680bff-90f1-439b-99a6-e0c63bc51e8f")
+	)
+	(fp_line
+		(start 3 -1.135)
+		(end 3.5 -1.135)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d64ed736-d762-4cbe-b7c4-9d0cdf752b66")
+	)
+	(fp_line
+		(start 3 -1.385)
+		(end 3 -1.135)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56cb0cc3-8c63-450f-9cfc-aaa3af3b691b")
+	)
+	(fp_line
+		(start 0 -1.385)
+		(end 3 -1.385)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "857d0993-d5d3-4fab-82bd-0ce6106d6494")
+	)
+	(fp_line
+		(start -3 -1.135)
+		(end -3 -1.385)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b917178a-4644-484c-b039-b6e51eeada1b")
+	)
+	(fp_line
+		(start -3 -1.385)
+		(end 0 -1.385)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2522d8a1-7560-49ce-8e04-2b79e456c376")
+	)
+	(fp_line
+		(start -3.5 1.385)
+		(end -3.5 -1.135)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c4c116e-a1ee-43e7-a43d-e71cf4532429")
+	)
+	(fp_line
+		(start -3.5 -1.135)
+		(end -3 -1.135)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e2fedd6-464c-4de8-beef-4d17010f81fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.075 0)
+		(layer "F.Fab")
+		(uuid "0f38e899-ba2e-450a-8c79-848e20b21e99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2 -1.185 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aab4177a-993b-4d23-b3d3-6c1a4c9fce4c")
+	)
+	(pad "2" smd rect
+		(at -1.2 -1.185 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "caef0c53-6d6a-4ac7-ab7e-117d3c1f6bfd")
+	)
+	(pad "3" smd rect
+		(at -0.4 -1.185 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20f9a471-0ffb-4b18-b0cc-aac5f112e2c5")
+	)
+	(pad "4" smd rect
+		(at 0.4 -1.185 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ab461e2-2a67-41b3-91e3-04ee9f89f205")
+	)
+	(pad "5" smd rect
+		(at 1.2 -1.185 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84d8db91-086f-4ff9-bb57-185c556aeb79")
+	)
+	(pad "6" smd rect
+		(at 2 -1.185 180)
+		(size 0.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75dc9726-cb21-425d-b841-45a40fd0247f")
+	)
+	(pad "7" smd rect
+		(at -3.25 0.735 180)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94c5742a-b076-47c4-bde1-75c5f77313a2")
+	)
+	(pad "8" smd rect
+		(at 3.25 0.735 180)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd00e12b-b0e8-4de5-a66a-75ed80192dfa")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\DF52-6S-0.8H_21_.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

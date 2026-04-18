@@ -1,0 +1,277 @@
+(footprint "NSR05F30NXT5G"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "NSR05F30NXT5G-3")
+	(tags "Schottky Diode")
+	(property "Reference" "REF**"
+		(at -0.039 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e1a840b-7dc0-4000-ab2f-155f1109e3c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NSR05F30NXT5G"
+		(at -0.039 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f0b84d8e-f2b0-412f-9a52-da3aa4076c94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NSR05F30.PDF"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aab85a96-bb2a-41c1-904f-ae171b73df47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Low Forward Voltage Drop (VF)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af09d168-3bc4-46a3-8f5c-44f4878f266a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.31"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e5fd31-6ef4-4d86-b31d-e81e1801dd3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "onsemi"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "342f5a70-a028-4b43-9ae0-89edee2a2cb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "NSR05F30NXT5G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "586dbcaf-a73b-4033-8dc9-93a929c943d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "863-NSR05F30NXT5G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a4db88a-79ec-4199-80e0-a2c83af0c56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NSR05F30NXT5G?qs=Ddzdinyxz%2FkBCezibUxhIA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de9a2634-663f-4986-b7c6-118be07287a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "NSR05F30NXT5G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb2470ea-4068-45c9-ab3c-b9de1b5a524c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/nsr05f30nxt5g/on-semiconductor?utm_currency=USD&region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d3a55f3-22f0-4ad7-90db-4f2f9980b5cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/FLASH_RAM/")
+	(sheetfile "FLASH_RAM.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.71 0)
+		(end -0.71 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0ba36a0-36b8-46b4-83cb-636e2ea9232c")
+	)
+	(fp_line
+		(start -0.7 0)
+		(end -0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d844c11-2ee2-40b7-8285-99719fa966d7")
+	)
+	(fp_arc
+		(start -0.71 0)
+		(mid -0.705 -0.005)
+		(end -0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39d2663f-fa5b-4abb-8163-1c49d277b522")
+	)
+	(fp_arc
+		(start -0.7 0)
+		(mid -0.705 0.005)
+		(end -0.71 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "608a569e-ab67-47f4-a54a-318e0d354ab4")
+	)
+	(fp_rect
+		(start -0.825 -0.5)
+		(end 0.725 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a1d3b1c-e88e-4aa7-b231-47fb7827907a")
+	)
+	(fp_line
+		(start -0.465 -0.3)
+		(end 0.53 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4d2e9aa-dd2d-4c18-9efb-440f142074de")
+	)
+	(fp_line
+		(start -0.465 0.3)
+		(end -0.465 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc5505d2-5e11-4ce6-920c-045193c689b1")
+	)
+	(fp_line
+		(start 0.53 -0.3)
+		(end 0.53 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f187490-b46b-427d-afaf-33bb2046bac0")
+	)
+	(fp_line
+		(start 0.53 0.3)
+		(end -0.465 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b27a5f04-88db-448b-bd19-507057c584e3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.039 0 180)
+		(layer "F.Fab")
+		(uuid "27e55e42-ba1c-4075-b763-719ae144a6a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.333 0)
+		(size 0.47 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dde60a75-7fa3-42f1-a5c7-2fb72f01ed65")
+	)
+	(pad "2" smd rect
+		(at 0.333 0 90)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa30ccf0-fb40-4332-b860-8bc55cc68f57")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\NSR05F30NXT5G.stp"
+		(offset
+			(xyz 0.02999999888 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,298 @@
+(footprint "SM04B-GHS-TB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SM04B-GHS-TB")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at -0.33322 2.8343 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a94cbf1b-19f5-46a1-965e-073b7767624f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SM04B-GHS-TB_LF__SN_"
+		(at -0.33322 2.8343 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7c69a096-6b42-4988-9a6d-5ad5c4049265")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://uk.rs-online.com/web/p/products/7521797"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4138c28d-f1e5-4eb3-bdb2-9eb8cf21acc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b151c7f-0b05-4ed3-b7e2-4c231d656d62")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d69827-54be-4479-b9f4-ad25b8e622f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2f36c68-2f89-42d2-a5e7-84cf87abe28c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b336519b-ed75-4948-b655-778a63846367")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd15dbc1-976a-40e6-b0a5-90bc8de530f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdb75c91-b53f-4f61-bdda-1449d28406fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "SM04B-GHS-TB(LF)(SN)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "632f2749-06e0-457e-b957-173f26077ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm04b-ghs-tb-lf-sn-/jst-manufacturing?region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67cc7b72-bf8e-4d75-a118-8683baa6f8ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Connector/")
+	(sheetfile "Connector.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.125 0)
+		(end -4.125 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f34c49a-6879-4bb1-8201-7a8c4ffdef14")
+	)
+	(fp_line
+		(start -4.125 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f6aae5d-9bb8-48fe-b78d-7f5773aba43c")
+	)
+	(fp_line
+		(start -2.9 4.25)
+		(end 2.9 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1277e606-5218-4eed-91ed-eba15d41558a")
+	)
+	(fp_line
+		(start 4.125 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99363eec-93e3-417d-8915-e8fba21511c3")
+	)
+	(fp_line
+		(start 4.125 0)
+		(end 4.125 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bdcee24-4431-4409-8ca0-d388a7aa02b5")
+	)
+	(fp_line
+		(start -4.125 0)
+		(end 4.125 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "710dd411-739f-422e-944f-a998fef6bd15")
+	)
+	(fp_line
+		(start -4.125 4.25)
+		(end -4.125 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d3b510d-b82a-4a4f-8ec0-f0692d4c9166")
+	)
+	(fp_line
+		(start 4.125 0)
+		(end 4.125 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ec12b21-b042-43fa-b90a-324ff1985253")
+	)
+	(fp_line
+		(start 4.125 4.25)
+		(end -4.125 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "393d5410-6215-4d15-bbae-8f0f761d36ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.33322 2.8343 180)
+		(layer "F.Fab")
+		(uuid "143915fe-e536-44a1-853f-efd0043e1a08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.875 -0.2)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25509cc2-4866-415e-8dc1-1123658533eb")
+	)
+	(pad "2" smd rect
+		(at -0.625 -0.2)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8be643b3-f4e2-4a71-8f72-a9929cad9f2f")
+	)
+	(pad "3" smd rect
+		(at 0.625 -0.2)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78b66df4-3403-4854-9c06-6bc793456103")
+	)
+	(pad "4" smd rect
+		(at 1.875 -0.2)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a387ad83-dd07-4080-aad3-4152d67fb6c3")
+	)
+	(pad "5" smd rect
+		(at -3.725 3)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2489eb6d-6c07-423e-bb20-09ba2035e1d1")
+	)
+	(pad "6" smd rect
+		(at 3.725 3)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a180c89-f4a5-4e90-898d-97b42fe5dabb")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/mathi/Desktop/projet/libloader/SamacSys_Parts.3dshapes/SM04B-GHS-TB_LF__SN_.stp"
+		(offset
+			(xyz -0.7 -2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

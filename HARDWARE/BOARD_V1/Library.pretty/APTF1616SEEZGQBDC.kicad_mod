@@ -1,0 +1,247 @@
+(footprint "APTF1616SEEZGQBDC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "APTF1616SEEZGQBDC")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at -11.097 -0.013 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3d4b2f07-ca8c-4fc8-84e7-700028cff52b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "APTF1616LSEEZGKQBKC"
+		(at -11.097 -0.013 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d788a209-2404-49cc-92f3-2d3907f1529e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/APTF1616LSEEZGKQBKC.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2f41e6c-7701-4ecd-be65-e79d77144534")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Standard LEDs - SMD 1.6x1.6MM LOW CU RGB SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "049a75c3-a4b1-4de3-8bf8-f4f44a94fbfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d9c88b0-3f5a-48dd-afd1-dbff6c168860")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Kingbright"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37c82da7-c214-4b64-a14e-58cdf3929d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "APTF1616LSEEZGKQBKC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1804254-9166-47c6-a6e6-2fc1d48f35d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "604-APTF1616LSEEZGKQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff2d6cde-01d6-4096-bb58-0b1ef0b42dde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kingbright/APTF1616LSEEZGKQBKC?qs=ZqXcJfGlKsh%252BpLJNPLW72w%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e504d877-d89d-4844-9122-723ff7008115")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "APTF1616LSEEZGKQBKC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c87fdf68-946f-4ad9-9d8c-e12740220a47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/aptf1616lseezgkqbkc/kingbright?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "584c3259-4d12-414d-a2b5-ce8c40e5ca13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "BOARD_V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 1.775 0.5)
+		(end 1.775 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "40d586ec-d828-4575-aacd-6ef4a6287d09")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdaf4cf0-4c36-48ae-b8ba-74c0db65121b")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31b7a48c-e105-4220-9a16-750a8ba0ec66")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end -0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19d21f24-d49d-4dae-a90a-dcba8820d5a5")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a002258-05cc-4463-8bbb-592729a06c04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.04 -2.24 0)
+		(layer "F.Fab")
+		(uuid "07c514af-809d-4a3a-8c3b-2f881d05d7d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.875 0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed7ee7e9-8cef-4358-a3f9-09e4821bd75c")
+	)
+	(pad "2" smd rect
+		(at -0.875 0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2951d6d8-81d4-4b55-a4fd-03b723b1cbbd")
+	)
+	(pad "3" smd rect
+		(at -0.875 -0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "461830b1-b77b-43e7-af69-48f38487354a")
+	)
+	(pad "4" smd rect
+		(at 0.875 -0.5 90)
+		(size 0.5 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5908032d-605a-4a2b-a841-59c456c50f22")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\projet\\libloader2\\SamacSys_Parts.3dshapes\\APTF1616LSEEZGKQBKC.stp"
+		(offset
+			(xyz 0.05999999776 0 0.1299999933)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

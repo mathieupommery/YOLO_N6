@@ -1,0 +1,246 @@
+(footprint "KXT341LHS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3 x 2 x 0.6mm")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90054c71-67fe-4a7a-9563-2367d8a5a460")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "KXT341LHS"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4f2b25ea-7664-4c33-b883-89d5a5089c61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1465/kxt3.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0597f2e8-98f3-449e-9eb4-a40ced6605ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Keypad Switch, 1 Switches, SPST, Momentary-tactile, 0.02A, 15VDC, 3.92N, Solder Terminal, Surface Mount-straight"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b6748c7-3a27-41dc-91e7-5d452aa930b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a4bf822-dde3-4290-a35f-468e040e3ce6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "C & K COMPONENTS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d5ca33f-31f9-4da2-92b2-dbd5e848f385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "KXT341LHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ad42c0a-1fe7-4720-b749-320aec6bb0a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "611-KXT341LHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7921f76d-9fb1-4928-a9bb-c665cf5776b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/KXT341LHS?qs=%2FQ2qp2Z%2FWFz0Ln38izMxmg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "237dc773-a0e2-4b41-b21b-63badc610bdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "KXT341LHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e588303f-a056-484b-9b1a-e487e61771c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/kxt341lhs/ck?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54fc8aea-8c8c-41b2-887e-b94adc7de28b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "BOARD_V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.625 1.1)
+		(end 1.6 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42b212b2-ab75-4b5d-a200-5e33e270e39f")
+	)
+	(fp_line
+		(start -1.6 -1.1)
+		(end 1.6 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01177889-09bf-41b7-b8ff-351069182e93")
+	)
+	(fp_rect
+		(start -2.025 -1.3)
+		(end 2 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a97fc08c-bbcd-4c7b-a6c4-b57b061e45fa")
+	)
+	(fp_line
+		(start -1.6 -1.1)
+		(end 1.6 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a507e09f-cc8a-48eb-993f-7fd1a85dbd55")
+	)
+	(fp_line
+		(start -1.6 1.1)
+		(end -1.6 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33d27dda-bc5f-4bfb-8dc8-e91b0e894e72")
+	)
+	(fp_line
+		(start 1.6 -1.1)
+		(end 1.6 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef428236-c28d-4294-866d-8e00d47aa188")
+	)
+	(fp_line
+		(start 1.6 1.1)
+		(end -1.6 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c1074c5-ee92-47b6-83d9-df08379788ec")
+	)
+	(pad "1" smd rect
+		(at -1.625 0)
+		(size 0.55 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "17f6b836-6432-4b01-b1d9-8fd74e89f273")
+	)
+	(pad "2" smd rect
+		(at 1.625 0)
+		(size 0.55 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c4982c3d-591d-4ddc-a174-d6a5eaa5c92e")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/mathi/Desktop/projet/libloader/SamacSys_Parts.3dshapes/KXT341LHS.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

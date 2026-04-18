@@ -15734,6 +15734,17 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "963-FBMJ1608HM180NTR"
+			(at 444.5 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "925f06ed-76de-4561-9dda-ff5bc143d62a")
 		)

@@ -3640,7 +3640,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "95-25UM25645GXDI0T"
 			(at 130.81 813.03 0)
 			(hide yes)
 			(show_name no)
@@ -3872,7 +3872,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "878-APS51208N-OBR-BD"
 			(at 130.81 749.53 0)
 			(hide yes)
 			(show_name no)
