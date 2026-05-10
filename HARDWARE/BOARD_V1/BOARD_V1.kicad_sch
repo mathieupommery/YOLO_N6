@@ -6531,6 +6531,16 @@
 		)
 		(uuid "d646891d-a962-41ef-a20f-9cd297f57655")
 	)
+	(text "NCS1"
+		(exclude_from_sim no)
+		(at 163.322 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea82d8a4-499e-4b92-8fb4-114d033c94bc")
+	)
 	(text "DFE201612P-1R0M"
 		(exclude_from_sim no)
 		(at 345.948 154.178 0)
@@ -6540,6 +6550,16 @@
 			)
 		)
 		(uuid "f0e825d2-07f7-4eaf-b60c-ab92db689576")
+	)
+	(text "NCS2"
+		(exclude_from_sim no)
+		(at 166.37 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f546b8f8-c67c-4656-93aa-32e6385dff0e")
 	)
 	(text "2n2H 2.53A RATED"
 		(exclude_from_sim no)
