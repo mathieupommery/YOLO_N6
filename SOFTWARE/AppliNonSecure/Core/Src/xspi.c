@@ -60,7 +60,7 @@ void MX_XSPI1_Init(void)
   {
     Error_Handler();
   }
-  sXspiManagerCfg.nCSOverride = HAL_XSPI_CSSEL_OVR_DISABLED;
+  sXspiManagerCfg.nCSOverride = HAL_XSPI_CSSEL_OVR_NCS1;
   sXspiManagerCfg.IOPort = HAL_XSPIM_IOPORT_2;
   sXspiManagerCfg.Req2AckTime = 1;
   if (HAL_XSPIM_Config(&hxspi1, &sXspiManagerCfg, HAL_XSPI_TIMEOUT_DEFAULT_VALUE) != HAL_OK)
@@ -87,8 +87,8 @@ void MX_XSPI2_Init(void)
   /* USER CODE END XSPI2_Init 1 */
   hxspi2.Instance = XSPI2;
   hxspi2.Init.FifoThresholdByte = 1;
-  hxspi2.Init.MemoryMode = HAL_XSPI_SINGLE_MEM;
-  hxspi2.Init.MemoryType = HAL_XSPI_MEMTYPE_MICRON;
+  hxspi2.Init.MemoryMode = HAL_XSPI_DUAL_MEM;
+  hxspi2.Init.MemoryType = HAL_XSPI_MEMTYPE_MACRONIX;
   hxspi2.Init.MemorySize = HAL_XSPI_SIZE_256MB;
   hxspi2.Init.ChipSelectHighTimeCycle = 1;
   hxspi2.Init.FreeRunningClock = HAL_XSPI_FREERUNCLK_DISABLE;
@@ -105,7 +105,7 @@ void MX_XSPI2_Init(void)
   {
     Error_Handler();
   }
-  sXspiManagerCfg.nCSOverride = HAL_XSPI_CSSEL_OVR_DISABLED;
+  sXspiManagerCfg.nCSOverride = HAL_XSPI_CSSEL_OVR_NCS2;
   sXspiManagerCfg.IOPort = HAL_XSPIM_IOPORT_2;
   sXspiManagerCfg.Req2AckTime = 3;
   if (HAL_XSPIM_Config(&hxspi2, &sXspiManagerCfg, HAL_XSPI_TIMEOUT_DEFAULT_VALUE) != HAL_OK)
@@ -159,10 +159,11 @@ void HAL_XSPI_MspInit(XSPI_HandleTypeDef* xspiHandle)
     PN10     ------> XSPIM_P2_IO6
     PN3     ------> XSPIM_P2_IO1
     PN11     ------> XSPIM_P2_IO7
+    PN1     ------> XSPIM_P2_NCS1
     */
     GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6|GPIO_PIN_5
                           |GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0|GPIO_PIN_10
-                          |GPIO_PIN_3|GPIO_PIN_11;
+                          |GPIO_PIN_3|GPIO_PIN_11|GPIO_PIN_1;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -194,6 +195,18 @@ void HAL_XSPI_MspInit(XSPI_HandleTypeDef* xspiHandle)
       __HAL_RCC_XSPIM_CLK_ENABLE();
     }
     __HAL_RCC_XSPI2_CLK_ENABLE();
+
+    __HAL_RCC_GPION_CLK_ENABLE();
+    /**XSPI2 GPIO Configuration
+    PN12     ------> XSPIM_P2_NCS2
+    */
+    GPIO_InitStruct.Pin = GPIO_PIN_12;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF9_XSPIM_P2;
+    HAL_GPIO_Init(GPION, &GPIO_InitStruct);
+
   /* USER CODE BEGIN XSPI2_MspInit 1 */
 
   /* USER CODE END XSPI2_MspInit 1 */
@@ -226,10 +239,11 @@ void HAL_XSPI_MspDeInit(XSPI_HandleTypeDef* xspiHandle)
     PN10     ------> XSPIM_P2_IO6
     PN3     ------> XSPIM_P2_IO1
     PN11     ------> XSPIM_P2_IO7
+    PN1     ------> XSPIM_P2_NCS1
     */
     HAL_GPIO_DeInit(GPION, GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6|GPIO_PIN_5
                           |GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0|GPIO_PIN_10
-                          |GPIO_PIN_3|GPIO_PIN_11);
+                          |GPIO_PIN_3|GPIO_PIN_11|GPIO_PIN_1);
 
   /* USER CODE BEGIN XSPI1_MspDeInit 1 */
 
@@ -246,6 +260,12 @@ void HAL_XSPI_MspDeInit(XSPI_HandleTypeDef* xspiHandle)
       __HAL_RCC_XSPIM_CLK_DISABLE();
     }
     __HAL_RCC_XSPI2_CLK_DISABLE();
+
+    /**XSPI2 GPIO Configuration
+    PN12     ------> XSPIM_P2_NCS2
+    */
+    HAL_GPIO_DeInit(GPION, GPIO_PIN_12);
+
   /* USER CODE BEGIN XSPI2_MspDeInit 1 */
 
   /* USER CODE END XSPI2_MspDeInit 1 */

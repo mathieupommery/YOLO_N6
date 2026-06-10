@@ -45,11 +45,6 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
-  /*IO attributes management functions */
-  HAL_GPIO_ConfigPinAttributes(GPION, GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6|GPIO_PIN_5
-                          |GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0|GPIO_PIN_10
-                          |GPIO_PIN_3|GPIO_PIN_11, GPIO_PIN_NSEC);
-
 }
 
 /* USER CODE BEGIN 2 */

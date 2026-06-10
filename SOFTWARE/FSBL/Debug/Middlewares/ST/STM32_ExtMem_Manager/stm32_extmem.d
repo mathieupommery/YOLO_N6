@@ -32,11 +32,11 @@ Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.o: \
  ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem_type.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/sal/stm32_sal_xspi_type.h \
+ ../../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver_type.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_type.h \
- ../../Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver_type.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.h \
- C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_api.h \
- C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver_api.h
+ C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver_api.h \
+ C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_api.h
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:
 ../Core/Inc/stm32_extmem_conf.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:
@@ -69,8 +69,8 @@ C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Man
 ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem_type.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/sal/stm32_sal_xspi_type.h:
+../../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver_type.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_type.h:
-../../Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver_type.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.h:
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver_api.h:
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_api.h:
-C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver_api.h:

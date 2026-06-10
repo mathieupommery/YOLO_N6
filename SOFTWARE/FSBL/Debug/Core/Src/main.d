@@ -30,8 +30,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem_type.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/sal/stm32_sal_xspi_type.h \
+ ../../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver_type.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_type.h \
- ../../Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver_type.h \
  ../../Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.h \
  ../Core/Inc/xspi.h ../Core/Inc/main.h ../Core/Inc/xspim.h \
  ../Core/Inc/gpio.h
@@ -68,8 +68,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem_type.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/sal/stm32_sal_xspi_type.h:
+../../Middlewares/ST/STM32_ExtMem_Manager/nor_sfdp/stm32_sfdp_driver_type.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/psram/stm32_psram_driver_type.h:
-../../Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver_type.h:
 ../../Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.h:
 ../Core/Inc/xspi.h:
 ../Core/Inc/main.h:

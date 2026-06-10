@@ -36,13 +36,13 @@ $(wildcard ../makefile.targets) \
 
 
 BUILD_ARTIFACT_NAME := SOFTWARE_ExtMemLoader
-BUILD_ARTIFACT_EXTENSION := elf
+BUILD_ARTIFACT_EXTENSION := stldr
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-SOFTWARE_ExtMemLoader.elf \
+SOFTWARE_ExtMemLoader.stldr \
 
 MAP_FILES += \
 SOFTWARE_ExtMemLoader.map \
@@ -62,11 +62,11 @@ all:
 	+@$(MAKE) --no-print-directory main-build && $(MAKE) --no-print-directory post-build
 
 # Main-build Target
-main-build: SOFTWARE_ExtMemLoader.elf secondary-outputs
+main-build: SOFTWARE_ExtMemLoader.stldr secondary-outputs
 
 # Tool invocations
-SOFTWARE_ExtMemLoader.elf SOFTWARE_ExtMemLoader.map: $(OBJS) $(USER_OBJS) C:\Users\mathi\Documents\GitHub\YOLO_N6\SOFTWARE\ExtMemLoader\STM32N657I0HXQ_extmemloader_default.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "SOFTWARE_ExtMemLoader.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m55 -T"C:\Users\mathi\Documents\GitHub\YOLO_N6\SOFTWARE\ExtMemLoader\STM32N657I0HXQ_extmemloader_default.ld" --specs=nosys.specs -Wl,-Map="SOFTWARE_ExtMemLoader.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SOFTWARE_ExtMemLoader.stldr SOFTWARE_ExtMemLoader.map: $(OBJS) $(USER_OBJS) C:\Users\mathi\Documents\GitHub\YOLO_N6\SOFTWARE\ExtMemLoader\STM32N657I0HXQ_extmemloader_default.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SOFTWARE_ExtMemLoader.stldr" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m55 -T"C:\Users\mathi\Documents\GitHub\YOLO_N6\SOFTWARE\ExtMemLoader\STM32N657I0HXQ_extmemloader_default.ld" --specs=nosys.specs -Wl,-Map="SOFTWARE_ExtMemLoader.map" -Wl,--gc-sections -static -Wl,--cmse-implib -Wl,--out-implib=./secure_nsclib.o --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -87,7 +87,7 @@ SOFTWARE_ExtMemLoader.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_
 
 # Other Targets
 clean:
-	-$(RM) SOFTWARE_ExtMemLoader.bin SOFTWARE_ExtMemLoader.elf SOFTWARE_ExtMemLoader.list SOFTWARE_ExtMemLoader.map default.size.stdout
+	-$(RM) SOFTWARE_ExtMemLoader.bin SOFTWARE_ExtMemLoader.list SOFTWARE_ExtMemLoader.map SOFTWARE_ExtMemLoader.stldr default.size.stdout
 	-@echo ' '
 
 post-build:

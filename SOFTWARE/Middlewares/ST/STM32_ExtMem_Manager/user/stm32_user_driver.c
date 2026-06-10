@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    stm32_user_driver.c
   * @author  MCD Application Team
-  * @brief   This file implements the U8SER driver.
+  * @brief   This file implements the USER driver.
   ******************************************************************************
   * @attention
   *

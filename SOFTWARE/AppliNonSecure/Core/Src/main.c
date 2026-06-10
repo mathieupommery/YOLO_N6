@@ -20,7 +20,6 @@
 #include "main.h"
 #include "cacheaxi.h"
 #include "csi.h"
-#include "sdmmc.h"
 #include "usb_otg.h"
 #include "xspi.h"
 #include "xspim.h"
@@ -87,7 +86,6 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_CACHEAXI_Init();
-  MX_SDMMC1_SD_Init();
   MX_USB1_OTG_HS_PCD_Init();
   MX_XSPI1_Init();
   MX_XSPI2_Init();

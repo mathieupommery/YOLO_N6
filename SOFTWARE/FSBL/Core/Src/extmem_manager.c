@@ -85,10 +85,12 @@ void MX_EXTMEM_MANAGER_Init(void)
   extmem_list_config[0].PsramObject.psram_public.Read_DummyCycle   = 4u;
 
   /* EXTMEMORY_2 */
-  extmem_list_config[1].MemType = EXTMEM_USER;
+  extmem_list_config[1].MemType = EXTMEM_NOR_SFDP;
+  extmem_list_config[1].Handle = (void*)&hxspi2;
+  extmem_list_config[1].ConfigType = EXTMEM_LINK_CONFIG_8LINES;
 
   EXTMEM_Init(EXTMEMORY_1, HAL_RCCEx_GetPeriphCLKFreq(RCC_PERIPHCLK_XSPI1));
-  EXTMEM_Init(EXTMEMORY_2, 0);
+  EXTMEM_Init(EXTMEMORY_2, HAL_RCCEx_GetPeriphCLKFreq(RCC_PERIPHCLK_XSPI2));
 
   /* USER CODE BEGIN MX_EXTMEM_Init_PostTreatment */
 
