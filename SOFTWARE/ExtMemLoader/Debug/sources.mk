@@ -24,7 +24,4 @@ OBJCOPY_BIN :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Src \
-Drivers/STM32N6xx_HAL_Driver \
-Middlewares/ST/STM32_ExtMem_Loader \
-Middlewares/ST/STM32_ExtMem_Manager \
 

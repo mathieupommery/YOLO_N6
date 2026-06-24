@@ -1,0 +1,10 @@
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:53:41:EXTMEM_DRIVER_USER_Init	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:67:41:EXTMEM_DRIVER_USER_DeInit	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:82:41:EXTMEM_DRIVER_USER_Read	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:101:41:EXTMEM_DRIVER_USER_Write	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:119:41:EXTMEM_DRIVER_USER_EraseSector	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:134:41:EXTMEM_DRIVER_USER_MassErase	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:146:41:EXTMEM_DRIVER_USER_Enable_MemoryMappedMode	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:159:41:EXTMEM_DRIVER_USER_Disable_MemoryMappedMode	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:173:41:EXTMEM_DRIVER_USER_GetMapAddress	1
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/user/stm32_user_driver.c:188:41:EXTMEM_DRIVER_USER_GetInfo	1

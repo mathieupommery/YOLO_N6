@@ -7,35 +7,29 @@
 C_SRCS += \
 ../Core/Src/extmem_manager.c \
 ../Core/Src/extmemloader_init.c \
-../Core/Src/gpio.c \
+../Core/Src/is25wx256.c \
 ../Core/Src/stm32n6xx_hal_msp.c \
 ../Core/Src/syscalls.c \
 ../Core/Src/sysmem.c \
-../Core/Src/system_stm32n6xx_fsbl.c \
-../Core/Src/xspi.c \
-../Core/Src/xspim.c 
+../Core/Src/system_stm32n6xx_fsbl.c 
 
 OBJS += \
 ./Core/Src/extmem_manager.o \
 ./Core/Src/extmemloader_init.o \
-./Core/Src/gpio.o \
+./Core/Src/is25wx256.o \
 ./Core/Src/stm32n6xx_hal_msp.o \
 ./Core/Src/syscalls.o \
 ./Core/Src/sysmem.o \
-./Core/Src/system_stm32n6xx_fsbl.o \
-./Core/Src/xspi.o \
-./Core/Src/xspim.o 
+./Core/Src/system_stm32n6xx_fsbl.o 
 
 C_DEPS += \
 ./Core/Src/extmem_manager.d \
 ./Core/Src/extmemloader_init.d \
-./Core/Src/gpio.d \
+./Core/Src/is25wx256.d \
 ./Core/Src/stm32n6xx_hal_msp.d \
 ./Core/Src/syscalls.d \
 ./Core/Src/sysmem.d \
-./Core/Src/system_stm32n6xx_fsbl.d \
-./Core/Src/xspi.d \
-./Core/Src/xspim.d 
+./Core/Src/system_stm32n6xx_fsbl.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -45,7 +39,7 @@ Core/Src/%.o Core/Src/%.su Core/Src/%.cyclo: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/extmem_manager.cyclo ./Core/Src/extmem_manager.d ./Core/Src/extmem_manager.o ./Core/Src/extmem_manager.su ./Core/Src/extmemloader_init.cyclo ./Core/Src/extmemloader_init.d ./Core/Src/extmemloader_init.o ./Core/Src/extmemloader_init.su ./Core/Src/gpio.cyclo ./Core/Src/gpio.d ./Core/Src/gpio.o ./Core/Src/gpio.su ./Core/Src/stm32n6xx_hal_msp.cyclo ./Core/Src/stm32n6xx_hal_msp.d ./Core/Src/stm32n6xx_hal_msp.o ./Core/Src/stm32n6xx_hal_msp.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32n6xx_fsbl.cyclo ./Core/Src/system_stm32n6xx_fsbl.d ./Core/Src/system_stm32n6xx_fsbl.o ./Core/Src/system_stm32n6xx_fsbl.su ./Core/Src/xspi.cyclo ./Core/Src/xspi.d ./Core/Src/xspi.o ./Core/Src/xspi.su ./Core/Src/xspim.cyclo ./Core/Src/xspim.d ./Core/Src/xspim.o ./Core/Src/xspim.su
+	-$(RM) ./Core/Src/extmem_manager.cyclo ./Core/Src/extmem_manager.d ./Core/Src/extmem_manager.o ./Core/Src/extmem_manager.su ./Core/Src/extmemloader_init.cyclo ./Core/Src/extmemloader_init.d ./Core/Src/extmemloader_init.o ./Core/Src/extmemloader_init.su ./Core/Src/is25wx256.cyclo ./Core/Src/is25wx256.d ./Core/Src/is25wx256.o ./Core/Src/is25wx256.su ./Core/Src/stm32n6xx_hal_msp.cyclo ./Core/Src/stm32n6xx_hal_msp.d ./Core/Src/stm32n6xx_hal_msp.o ./Core/Src/stm32n6xx_hal_msp.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32n6xx_fsbl.cyclo ./Core/Src/system_stm32n6xx_fsbl.d ./Core/Src/system_stm32n6xx_fsbl.o ./Core/Src/system_stm32n6xx_fsbl.su
 
 .PHONY: clean-Core-2f-Src
 

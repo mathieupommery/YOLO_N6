@@ -3,7 +3,7 @@ C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Man
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:338:22:EXTMEM_Read	32	static
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:435:22:EXTMEM_Write	32	static
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:538:22:EXTMEM_WriteInMappedMode	32	static
-C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:608:22:EXTMEM_EraseSector	48	static
+C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:608:22:EXTMEM_EraseSector	32	static
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:773:22:EXTMEM_EraseAll	24	static
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:863:22:EXTMEM_GetInfo	24	static
 C:/Users/mathi/Documents/GitHub/YOLO_N6/SOFTWARE/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c:945:22:EXTMEM_MemoryMappedMode	24	static
