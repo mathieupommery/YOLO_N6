@@ -1,7 +1,0 @@
-../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22:LL_AHB4_GRP1_EnableClock	1
-../Core/Src/extmemloader_init.c:76:10:extmemloader_Init	5
-../Core/Src/extmemloader_init.c:135:6:SystemClock_Config	9
-../Core/Src/extmemloader_init.c:247:13:MX_XSPI2_Init	3
-../Core/Src/extmemloader_init.c:298:13:MX_XSPIM_Init	1
-../Core/Src/extmemloader_init.c:320:13:MX_GPIO_Init	1
-../Core/Src/extmemloader_init.c:349:6:Error_Handler	1

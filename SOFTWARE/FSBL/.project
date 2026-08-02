@@ -87,9 +87,9 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_xspi.c</locationURI>
 		</link>
 		<link>
-			<name>Middlewares/ST/STM32_ExtMem_Manager/stm32_boot_xip.c</name>
+			<name>Middlewares/ST/STM32_ExtMem_Manager/stm32_boot_lrun.c</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_lrun.c</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.c</name>

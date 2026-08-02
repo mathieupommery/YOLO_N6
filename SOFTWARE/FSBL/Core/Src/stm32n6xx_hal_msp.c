@@ -97,7 +97,7 @@ void HAL_XSPI_MspInit(XSPI_HandleTypeDef* hxspi)
     PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_XSPI1;
     PeriphClkInitStruct.Xspi1ClockSelection = RCC_XSPI1CLKSOURCE_IC3;
     PeriphClkInitStruct.ICSelection[RCC_IC3].ClockSelection = RCC_ICCLKSOURCE_PLL1;
-    PeriphClkInitStruct.ICSelection[RCC_IC3].ClockDivider = 5;
+    PeriphClkInitStruct.ICSelection[RCC_IC3].ClockDivider = 16;
     if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
     {
       Error_Handler();
@@ -109,6 +109,7 @@ void HAL_XSPI_MspInit(XSPI_HandleTypeDef* hxspi)
 
     __HAL_RCC_GPION_CLK_ENABLE();
     /**XSPI1 GPIO Configuration
+    PN12     ------> XSPIM_P2_NCS2
     PN4     ------> XSPIM_P2_IO2
     PN8     ------> XSPIM_P2_IO4
     PN6     ------> XSPIM_P2_CLK
@@ -119,11 +120,10 @@ void HAL_XSPI_MspInit(XSPI_HandleTypeDef* hxspi)
     PN10     ------> XSPIM_P2_IO6
     PN3     ------> XSPIM_P2_IO1
     PN11     ------> XSPIM_P2_IO7
-    PN1     ------> XSPIM_P2_NCS1
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6|GPIO_PIN_5
-                          |GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0|GPIO_PIN_10
-                          |GPIO_PIN_3|GPIO_PIN_11|GPIO_PIN_1;
+    GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6
+                          |GPIO_PIN_5|GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0
+                          |GPIO_PIN_10|GPIO_PIN_3|GPIO_PIN_11;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -156,6 +156,7 @@ void HAL_XSPI_MspDeInit(XSPI_HandleTypeDef* hxspi)
     __HAL_RCC_XSPI1_CLK_DISABLE();
 
     /**XSPI1 GPIO Configuration
+    PN12     ------> XSPIM_P2_NCS2
     PN4     ------> XSPIM_P2_IO2
     PN8     ------> XSPIM_P2_IO4
     PN6     ------> XSPIM_P2_CLK
@@ -166,11 +167,10 @@ void HAL_XSPI_MspDeInit(XSPI_HandleTypeDef* hxspi)
     PN10     ------> XSPIM_P2_IO6
     PN3     ------> XSPIM_P2_IO1
     PN11     ------> XSPIM_P2_IO7
-    PN1     ------> XSPIM_P2_NCS1
     */
-    HAL_GPIO_DeInit(GPION, GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6|GPIO_PIN_5
-                          |GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0|GPIO_PIN_10
-                          |GPIO_PIN_3|GPIO_PIN_11|GPIO_PIN_1);
+    HAL_GPIO_DeInit(GPION, GPIO_PIN_12|GPIO_PIN_4|GPIO_PIN_8|GPIO_PIN_6
+                          |GPIO_PIN_5|GPIO_PIN_2|GPIO_PIN_9|GPIO_PIN_0
+                          |GPIO_PIN_10|GPIO_PIN_3|GPIO_PIN_11);
 
     /* USER CODE BEGIN XSPI1_MspDeInit 1 */
 

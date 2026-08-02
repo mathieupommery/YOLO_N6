@@ -1,0 +1,21 @@
+#ifdef CACA
+  /* USER CODE END 2 */
+
+  /* Launch the application */
+  if (BOOT_OK != BOOT_Application())
+  {
+    Error_Handler();
+  }
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+#endif
+  while (1)
+  {
+
+	  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_3);
+	  HAL_Delay(100);
+	  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_4);
+	  	  HAL_Delay(100);
+	  	HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_8);
+	  		  HAL_Delay(100);
+
